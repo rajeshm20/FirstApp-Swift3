@@ -94,9 +94,9 @@
 			children = (
 				1B25ED361DD806AE006EA9E9 /* FirstApp9 */,
 				1B25ED4B1DD806AF006EA9E9 /* FirstApp9Tests */,
-				1B25ED561DD806AF006EA9E9 /* FirstApp9UITests */,
 				1B25ED351DD806AE006EA9E9 /* Products */,
 				D5E006EEB0E457DB8E62E125 /* Pods */,
+				1B25ED561DD806AF006EA9E9 /* FirstApp9UITests */,
 				E43393254467C558AC8F7C77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -698,6 +698,7 @@
 				1B25ED5E1DD806AF006EA9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B25ED5F1DD806AF006EA9E9 /* Build configuration list for PBXNativeTarget "FirstApp9Tests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +707,7 @@
 				1B25ED611DD806AF006EA9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B25ED621DD806AF006EA9E9 /* Build configuration list for PBXNativeTarget "FirstApp9UITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +716,7 @@
 				1B25ED641DD806AF006EA9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
