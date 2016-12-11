@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A238m" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -119,13 +119,6 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q5N-bt-RFX" customClass="SpringView" customModule="Spring">
-                                <rect key="frame" x="106" y="326" width="162" height="162"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="Mee-it-c7S"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -133,9 +126,6 @@
                             <constraint firstItem="NNY-zG-3ZY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="79" id="Shw-jp-UA8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9qv-aI-res" secondAttribute="trailing" constant="96" id="WT2-4k-Q7s"/>
                             <constraint firstItem="Rba-dN-2mR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dgB-h6-4wO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Q5N-bt-RFX" secondAttribute="trailing" constant="91" id="hhM-8t-iKO"/>
-                            <constraint firstItem="Q5N-bt-RFX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="90" id="idp-Qx-5fZ"/>
-                            <constraint firstItem="Q5N-bt-RFX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="326" id="ja5-0t-q9u"/>
                             <constraint firstItem="VJf-T1-bd5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="106" id="o44-Yp-sQP"/>
                             <constraint firstItem="Rba-dN-2mR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="132" id="r4f-tV-Zff"/>
                             <constraint firstItem="9qv-aI-res" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="95" id="sAq-qc-m1m"/>
@@ -147,7 +137,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="layer1" destination="Q5N-bt-RFX" id="J6h-n3-qqd"/>
                         <outlet property="password" destination="Rba-dN-2mR" id="bxs-oQ-yOn"/>
                         <outlet property="userName" destination="NNY-zG-3ZY" id="ooP-KD-Fwg"/>
                     </connections>

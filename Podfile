@@ -7,20 +7,23 @@ target 'FirstApp9' do
 
  use_frameworks!
  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
-pod 'Eureka'
+ pod 'Firebase/Core'
+ pod 'Firebase/Auth'
+
   target 'FirstApp9Tests' do
     inherit! :search_paths
    use_frameworks!
 pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
-pod 'Eureka'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
   end
 
   target 'FirstApp9UITests' do
     inherit! :search_paths
     use_frameworks!
 pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
-pod 'Eureka'
-
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
   end
 
 end

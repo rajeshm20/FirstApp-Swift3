@@ -11,14 +11,9 @@ import Spring
 
 class ViewController: UIViewController {
     
-    
-    
     @IBOutlet weak var userName: UITextField!
     
-    
     @IBOutlet weak var password: UITextField!
-    
-    @IBOutlet weak var layer1: SpringView!
     
 
     override func viewDidLoad() {
@@ -26,10 +21,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func loginBtnPressed(_ sender: Any) {
+    @IBAction func loginBtnPressed(_ sender: Any){
         
-        layer1.animation = "squeezeDown"
-        layer1.animate()
+        
+        
         
     }
     override func didReceiveMemoryWarning() {
